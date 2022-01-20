@@ -1,0 +1,19 @@
+.basic-watch {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.lights-on {
+  background-color: black;
+  color: white;
+}
